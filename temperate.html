@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hot {
+        color: red
+    }
+    
+    #cold {
+        visibility: hidden;
+    }
+    
+    #moderate {
+        visibility: hidden;
+    }
+    
+    #hot {
+        visibility: hidden;
+    }
+</style>
+
+<body>
+    <input type="submit" id="btn" onclick="temperature">Click to get prediction</input>
+    <div id="cold">
+        <img src="pics1.jpeg" id=cols alt="">
+    </div>
+    <div id="moderate">
+        <img src="pics2.jpeg" id=mode alt="">
+    </div>
+    <div id="hot">
+        <img src="pics3.jpeg" id=hott alt="">
+    </div>
+    <script src="temperate.js"></script>
+</body>
+
+</html>
