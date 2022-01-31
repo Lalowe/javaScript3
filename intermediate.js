@@ -16,7 +16,7 @@ console.log(sum)
 var average = sum / students.length;
 console.log(`The average of class is ${average}`)
 
-switch (true) {
+switch (true) { // ked mam podmienku tak tu musi by true , keby dolu volo len cislo tak tam moze byt average
 
     case (average <= 50):
         console.log("Very bad average");
